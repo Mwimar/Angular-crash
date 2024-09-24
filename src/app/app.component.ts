@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   template: `
   
   <main>
-  <header></header>
+  <header class = 'brand-name'>
+  <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
+
+  </header>
   </main>
   `,
   styleUrls: ['./app.component.css'],
