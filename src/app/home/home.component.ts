@@ -10,9 +10,11 @@ import { CommonModule } from '@angular/common';
    <section>
    <form>
    <input type="text" placeholder= "filterByCity">
-   <button class="primary" type="button"></button>
+   <button class="primary" type="button">search</button>
    </form>
    </section>
+
+   <section class="results"></section>
   `,
   styleUrls: ['./home.component.css']
 })
