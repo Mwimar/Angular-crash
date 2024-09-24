@@ -7,9 +7,12 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <p>
-      home works!
-    </p>
+   <section>
+   <form>
+   <input type="text" placeholder= "filterByCity">
+   <button class="primary" type="button"></button>
+   </form>
+   </section>
   `,
   styleUrls: ['./home.component.css']
 })
