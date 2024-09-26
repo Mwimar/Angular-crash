@@ -7,8 +7,9 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   template: `
     <section class="listing">
-      <img class="listingImage">
-      <h2 class="listingHeading"></h2>
+      <img class="listing-image">
+      <h2 class="listing-heading"></h2>
+      <p class="listing-location"></p>
 
 </section>
   `,
