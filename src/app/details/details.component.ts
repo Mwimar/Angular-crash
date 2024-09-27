@@ -8,12 +8,18 @@ import { ActivatedRoute } from '@angular/router';
   imports: [CommonModule],
   template: `
     <p>
-      details works!
+      {{housingLocationId}}
     </p>
   `,
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent {
   route: ActivatedRoute= inject(ActivatedRoute);
+
+  housingLocationId = 0;
+
+  constructor (){
+    this.housingLocationId = Number(this.route.snapshot.params['id']) 
+  }
 
 }
