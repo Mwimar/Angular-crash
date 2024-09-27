@@ -22,3 +22,8 @@
     color: white;
     border-radius: 8px;
   }
+
+  img{
+    width: 200px;
+    height: 150px;
+  }
