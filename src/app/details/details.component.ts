@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-details',
@@ -13,5 +14,6 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent {
+  route: ActivatedRoute= inject(ActivatedRoute);
 
 }
